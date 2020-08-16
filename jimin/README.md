@@ -1,4 +1,4 @@
-# LOG of handwritten english alphabet recognition web project 
+# LOG : handwritten english alphabet recognition web project 
 
 ## 2020.8.14
 1. 데이터 분석  : 숫자+알파벳 데이터
