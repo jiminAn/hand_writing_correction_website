@@ -34,6 +34,8 @@ for idex, categorie in enumerate(categories):
             print(image_dir + filename)
             img = cv2.imread(image_dir + filename)
             img = cv2.resize(img, None, fx=image_w / img.shape[0], fy=image_h / img.shape[1])
+            #이미지 흑백으로 바꿔줘야함 3차원->1차원으로 변경
+            #img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
             X.append(img / 256)
             Y.append(label)
 
