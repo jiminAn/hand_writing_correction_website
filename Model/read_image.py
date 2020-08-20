@@ -4,7 +4,7 @@ import numpy as np
 
 from sklearn.model_selection import train_test_split
 
-groups_folder_path = './cnn_sample/Fnt/' #alphabet이 저장되어 있는 경로 설
+groups_folder_path = './Fnt/' #alphabet이 저장되어 있는 경로 설
 categories = [] # 이미지 카테고리
 
 #categories에 file경로 이름 붙이는 반복문
@@ -31,20 +31,18 @@ for idex, categorie in enumerate(categories):
 
     for top, dir, f in os.walk(image_dir):
         for filename in f:
-            print(image_dir + filename)
+            #print(image_dir + filename)
             img = cv2.imread(image_dir + filename)
-            img = cv2.resize(img, None, fx=image_w / img.shape[0], fy=image_h / img.shape[1])
+            img = cv2.resize(img, None, fx=image_w / img.shape[0], fy=image_h / img.shape[1]) # 128 -> 28
             #이미지 흑백으로 바꿔줘야함 3차원->1차원으로 변경
-            #img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-            X.append(img / 256)
+            img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+            temp_img = img/256
+            temp_img = temp_img.reshape(28,28,1) # 그레이 스케일로 할려면 차원을 4차원으로 만들어야 텐서에서 돌아갑니다
+            X.append(temp_img)
             Y.append(label)
 
 X = np.array(X)
 Y = np.array(Y)
-
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y)
 xy = (X_train, X_test, Y_train, Y_test)
-
 np.save("./img_data.npy", xy)
-
-

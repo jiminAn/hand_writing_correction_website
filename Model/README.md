@@ -17,3 +17,11 @@
 : cnn.py
 2. 생성된 모델로 테스트 하기  
 : model_test.py
+
+## 2020.8.20
+1. gray scale로 변환 성공
+: read_image
+2. 패딩 값 same으로 변환
+:cnn.py
+3. epocs당 평균 acc 60 -> 데이터 변경 및 CNN 알고리즘 개선 필요
+4. 아스날
