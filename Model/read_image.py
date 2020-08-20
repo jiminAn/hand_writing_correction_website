@@ -1,9 +1,15 @@
 import os
 import cv2
 import numpy as np
-
 from sklearn.model_selection import train_test_split
 
+#
+# filename : read_image.py
+# history
+# =============================
+# 20200818 v.0.0.0 초안 및 주석 작성 안지민
+# 20200820 v.0.1.0 그레이 스케일 이미지 변환 코드 작성 강대훈
+# =============================
 groups_folder_path = './Fnt/' #alphabet이 저장되어 있는 경로 설
 categories = [] # 이미지 카테고리
 
