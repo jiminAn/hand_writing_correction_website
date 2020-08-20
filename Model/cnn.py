@@ -14,8 +14,8 @@ X_train, X_test, Y_train, Y_test = np.load('./img_data.npy', allow_pickle=True) 
 # filename : cnn.py
 # history
 # =============================
-# 20200820 v.1.0 초안 작성 안지민
-# 20190903 v.1.1 padding, input_shape 값 수정 강대훈
+# 20200818 v.1.0 초안 작성 안지민
+# 20200820 v.1.1 padding, input_shape 값 수정 강대훈
 # =============================
 # Ver 1.1 
 model = Sequential()
