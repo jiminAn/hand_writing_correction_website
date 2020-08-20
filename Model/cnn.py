@@ -10,9 +10,14 @@ import datetime
 
 allow_pickle = True
 X_train, X_test, Y_train, Y_test = np.load('./img_data.npy', allow_pickle=True)  # read_img에서 만든 데이터 셋을 불러옴
-
-# 모델 훈련은 Sequential/Convolution2D/Maxpooling2D/Flatten/Dense 과정 찾아보면서 공부
-
+#
+# filename : cnn.py
+# history
+# =============================
+# 20200820 v.1.0 초안 작성 안지민
+# 20190903 v.1.1 padding, input_shape 값 수정 강대훈
+# =============================
+# Ver 1.1 
 model = Sequential()
 print(X_train.shape)
 model.add(Convolution2D(16, 3, 3, padding='same', activation='relu', input_shape=(28, 28, 1)))
