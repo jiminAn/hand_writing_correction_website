@@ -1,13 +1,37 @@
-# 손글씨 교정 웹사이트
-- SW개발자 대회
-- 임재영 (웹 디자인 및 서버 구축)
-- 이승준, 안지민 (인공지능 모델 설계)
-- 강대훈, 안선정 (데이터 관리)
+# Hand-Writing Correction Website
+### Introduction
 
+#### 2020년 제 14회 공개 SW 개발자 대회 참여 프로젝트
 
+#### 손글씨 교정 웹사이트(Hand-Writing Correction Website)
 
+<br></br>
 
-- 문서 정리: 강대훈, 안지민
+### Role
+
+**웹 프로그래밍(Web Programming)**
+
+- [limjustin(임재영)](https://github.com/limjustin)
+
+**인공지능 모델 설계(AI Model Design)**
+
+- [jiminAn(안지민)](https://github.com/jiminAn)
+
+- [Rudy-009(이승준)](https://github.com/Rudy-009)
+
+**데이터 관리(Data Management)**
+
+- [daehoon12(강대훈)](https://github.com/daehoon12)
+- [sja3410(안선정)](https://github.com/sja3410)
+
+<br></br>
+
+### Documentation
+
+**문서 정리**
+
+- [daehoon12(강대훈)](https://github.com/daehoon12)
+- [jiminAn(안지민)](https://github.com/jiminAn)
 
 ------------------------------------
 20200810 글자 추출 코드 작성 (Ver 1.0) , 강대훈    
