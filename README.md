@@ -1,13 +1,11 @@
-# Hand-Writing Correction Website
-### Introduction
+## Introduction
 
 #### 2020년 제 14회 공개 SW 개발자 대회 참여 프로젝트
 
 #### 손글씨 교정 웹사이트(Hand-Writing Correction Website)
 
-<br></br>
 
-### Role
+## Role
 
 **웹 프로그래밍(Web Programming)**
 
@@ -24,9 +22,8 @@
 - [daehoon12(강대훈)](https://github.com/daehoon12)
 - [sja3410(안선정)](https://github.com/sja3410)
 
-<br></br>
 
-### Documentation
+## Documentation
 
 **문서 정리**
 
