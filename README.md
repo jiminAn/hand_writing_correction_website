@@ -8,9 +8,6 @@
 
 ## Role
 
-**웹 프로그래밍(Web Programming)**
-
-- [limjustin(임재영)](https://github.com/limjustin)
 
 **인공지능 모델 설계(AI Model Design)**
 
@@ -22,6 +19,10 @@
 
 - [daehoon12(강대훈)](https://github.com/daehoon12)
 - [sja3410(안선정)](https://github.com/sja3410)
+
+**웹 프로그래밍(Web Programming)**
+
+- [limjustin(임재영)](https://github.com/limjustin)
 
 <br></br>
 
