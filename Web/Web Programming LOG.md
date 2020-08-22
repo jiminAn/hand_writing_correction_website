@@ -32,3 +32,13 @@ Jaeyoung Lim
 
 <br></br>
 
+## 2020-08-22 (Sat)
+
+**Server Side**
+
+- html 파일과 외부 js 파일 연결
+- Express js Server 기본 Setting 적용
+
+- Python 코드는 Server에서 구동되어야 한다는 것을 알아냄
+- Python 코드 구현 연구 중
+
