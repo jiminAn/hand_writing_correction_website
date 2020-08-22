@@ -4,6 +4,7 @@
 
 #### 손글씨 교정 웹사이트(Hand-Writing Correction Website)
 
+<br></br>
 
 ## Role
 
@@ -22,6 +23,7 @@
 - [daehoon12(강대훈)](https://github.com/daehoon12)
 - [sja3410(안선정)](https://github.com/sja3410)
 
+<br></br>
 
 ## Documentation
 
