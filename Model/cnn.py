@@ -20,6 +20,9 @@ X_train, X_test, Y_train, Y_test = np.load('./img_data.npy', allow_pickle=True) 
 # Ver 1.1 
 model = Sequential()
 print(X_train.shape)
+# 사용하고있는 keras ver이 1이 아닌 2일 경우
+# model.add(Convolution2D(16, 3, stride = 3, padding='same', activation='relu', input_shape=(28, 28, 1)))
+# 으로 모두 변경해줄 것
 model.add(Convolution2D(16, 3, 3, padding='same', activation='relu', input_shape=(28, 28, 1)))
 model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
 model.add(Dropout(0.25))
