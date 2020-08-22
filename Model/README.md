@@ -30,6 +30,8 @@
 ## 2020.08.22
 1. 전체 데이터 세트 개수: 약 63,000개
 2. train set/ test set 분류 관련 참고  
--link <https://teddylee777.github.io/scikit-learn/train-test-split>  
+- link <https://teddylee777.github.io/scikit-learn/train-test-split>  
+- read_img.py v.0.1.0 에서는 train : set = 7.5 : 2.5(train_test_split : default)
 3. 과적합(overfitting) 확인하기  
--link <https://ganghee-lee.tistory.com/38>
+- link <https://ganghee-lee.tistory.com/38>
+- 주피터노트북을 통해 그래프 그려 확인-> 적절한 epoch값 찾기
