@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 #### 2020년 제 14회 공개 SW 개발자 대회 참여 프로젝트
 
@@ -6,7 +6,7 @@
 
 <br></br>
 
-## Role
+# Role
 
 
 **인공지능 모델 설계(AI Model Design)**
@@ -27,7 +27,7 @@
 
 <br></br>
 
-## Documentation
+# Documentation
 
 **문서 정리**
 
