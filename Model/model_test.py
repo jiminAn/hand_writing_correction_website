@@ -8,11 +8,11 @@ from keras.models import load_model
  
  
 #
-# filename : cnn.py
+# filename : model_test.py
 # history
 # =============================
-# 20200818 v.1.0 초안 작성 안지민
-# 20200822 v.1.1 Dataization 반환값 1차원으로 수정 : (28,28,3) -> (28,28,1) : test set랑 사이즈 맞추기
+# 20200818 v.1.0 초안 작성 (안지민)
+# 20200822 v.1.1 Dataization 반환값 1차원으로 수정 : (28,28,3) -> (28,28,1) : test set랑 사이즈 맞추기 (안지민)
 # =============================
 # Ver 1.1
 
