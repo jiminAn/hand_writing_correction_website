@@ -27,3 +27,9 @@
 4. model.add(Dropout(0.1)) 0.25에서 0.1로 바꿀시 정확도 평균 0.89
 5. model.add(Dropout(0.05)) 0.25에서 0.05로 바꿀시 정확도 평균 0.92
 
+## 2020.08.22
+1. 전체 데이터 세트 개수: 약 63,000개
+2. train set/ test set 분류 관련 참고  
+-link <https://teddylee777.github.io/scikit-learn/train-test-split>  
+3. 과적합(overfitting) 확인하기  
+-link <https://ganghee-lee.tistory.com/38>
