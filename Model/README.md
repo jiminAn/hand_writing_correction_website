@@ -35,3 +35,9 @@
 3. 과적합(overfitting) 확인하기  
 - link <https://ganghee-lee.tistory.com/38>
 - 주피터노트북을 통해 그래프 그려 확인-> 적절한 epoch값 찾기
+
+## 2020.08.23
+1. 과적합 해결 방법
+- 훈련 데이터 개수 늘리기 : 63,000->126,000 두 배로 늘렸으나 해결 안됨 + 훈련 시간 너무 오래 걸림  
+- 모델 학습 과정 살펴보기    
+: 참고 <https://tykimos.github.io/2017/07/09/Early_Stopping/>  
