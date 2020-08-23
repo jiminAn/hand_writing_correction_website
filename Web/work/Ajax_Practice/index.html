@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(document).ready(function() {
+                
+                $('#getMethod').click(function() {
+                    var get = 'GET METHOD CALL';
+
+                    // Ajax GET Method TEST
+                    $.ajax({
+                        url: '/api/get',
+                        dataType: 'json',
+                        type: 'GET',
+                        data: {data:get},
+                        success: function(result) {
+                            if(result) {
+                                $('#get_output').html(result.result);
+                                console.log(result.result);
+                                // result : json attribute
+                                // result.result : json value
+                            }
+                        }
+                    });
+                });
+
+                $('#postMethod').click(function() {
+               var post = 'POST METHOD CALL';
+ 
+                //Ajax POST Method TEST
+                $.ajax({
+                    url: '/api/post',
+                      dataType: 'json',
+                      type: 'POST',
+                      data: {data:post},
+                      success: function(result) {
+                          if (result) {
+                             $('#post_output').html(result.result);
+                          }
+                      }
+                  });
+                });
+
+            });
+        </script>
+
+        <style media="screen">
+            div{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ajax 기본 테스트</h1>
+        <div style="border: 3px solid gray; width: 180px">
+            <h2>GET</h2>
+            <button id='getMethod'>GET</button>
+            <p id = 'get_output'>
+                get
+            </p>
+        </div>
+        <div style="border: 3px solid gray; width: 180px">
+            <h2>POST</h2>
+            <button id='postMethod'>POST</button>
+            <p id='post_output'>
+                post
+            </p>
+        </div>
+    </body>
+</html>
