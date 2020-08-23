@@ -6,7 +6,7 @@ Hand-written English alphabet recognition Web Project
 
 #### **Developer**
 
-Jaeyoung Lim
+- [limjustin](https://github.com/limjustin)
 
 <br></br>
 
@@ -38,7 +38,23 @@ Jaeyoung Lim
 
 - html 파일과 외부 js 파일 연결
 - Express js Server 기본 Setting 적용
-
 - Python 코드는 Server에서 구동되어야 한다는 것을 알아냄
-- Python 코드 구현 연구 중
+- Python 코드 구현 연구 중 (상당히 어려움) -> 어떻게 해결했는지 쓰기
+
+<br></br>
+
+## 2020-08-23 (Sun)
+
+**Server-Side**
+
+- Python 코드 구동에 관한 연구
+  - 기본적인 구조부터 다시 뜯어봐야 할 듯 (Input or Output)
+  - Python 코드는 Server에서 구동되어야 함
+- Client에서 Server를 호출하는 방법
+  - Ajax 공부 중
+
+**Client-Side**
+
+- Client에서 Server를 호출하는 방법
+  - Ajax 공부 중
 
