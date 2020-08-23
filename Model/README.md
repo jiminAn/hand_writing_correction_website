@@ -41,3 +41,6 @@
 - 훈련 데이터 개수 늘리기 : 63,000->126,000 두 배로 늘렸으나 해결 안됨 + 훈련 시간 너무 오래 걸림  
 - 모델 학습 과정 살펴보기    
 : 참고 <https://tykimos.github.io/2017/07/09/Early_Stopping/>  
+2. 과적합 진단을 위한 모델 학습과정 그래프로 그리기  
+: check_overfitting_graph.py
+: read_img 부분에 주석 추가와 학습과정을 기록하기 위해 hist변수 추가
