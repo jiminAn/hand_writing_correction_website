@@ -6,7 +6,7 @@
 #### 손글씨 교정 웹사이트(Hand-Writing Correction Website)
 <https://github.com/jiminAn/hand_writing_correction_website>
 
-<br></br>
+<br/>
 
 # Role
 
@@ -27,7 +27,7 @@
 
 - [limjustin(임재영)](https://github.com/limjustin)
 
-<br></br>
+<br/>
 
 # Documentation
 
