@@ -2,7 +2,7 @@
 
 #### **Project Name**
 
-Hand-written English alphabet recognition Web Project
+Handwriting Correction Website
 
 #### **Developer**
 
