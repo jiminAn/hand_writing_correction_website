@@ -120,3 +120,15 @@ https://youtu.be/7akcEo_-yQ4
 
 <br/>
 
+
+
+## Study List 정리 필요 (Blogging or Googling)
+
+- Ajax - GET과 POST 방식의 차이점 확실하게 알기 
+  - POST 500 Internal Server Error 이유
+- Client와 Server 개념 명확하게 하기
+- jQuery의 역할
+- 일반 Server와 Express.js와 차이
+- Python 코드를 Server에서 돌리는 게 위험하다고?
+
+<br/>
