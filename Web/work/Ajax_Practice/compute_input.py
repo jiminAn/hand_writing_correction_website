@@ -1,6 +1,9 @@
 ## compute_input.py
 
 import sys, json, numpy as np
+## How to install numpy?
+# npm install numpy (x)
+# pip3 install numpy (o)
 
 #Read data from stdin
 def read_in():
