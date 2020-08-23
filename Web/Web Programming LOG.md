@@ -8,7 +8,7 @@ Handwriting Correction Website
 
 - [limjustin](https://github.com/limjustin)
 
-<br></br>
+<br/>
 
 ## 2020-08-20 (Thu)
 
@@ -28,7 +28,7 @@ Handwriting Correction Website
 2. **이미지 저장 기능**
    - 사용자가 그린 그림을 png 파일로 변환하여 저장할 수 있도록 하기
 
-<br></br>
+<br/>
 
 ## 2020-08-21 (Fri)
 
@@ -37,7 +37,7 @@ Handwriting Correction Website
 1. **Python 코드 구동에 관한 연구**
    - 큰 구조 정도만 생각
 
-<br></br>
+<br/>
 
 ## 2020-08-22 (Sat)
 
@@ -57,7 +57,7 @@ Handwriting Correction Website
 
    - Python 코드 구현 연구 중 (상당히 어려움)
 
-<br></br>
+<br/>
 
 ## 2020-08-23 (Sun)
 
@@ -98,3 +98,4 @@ Handwriting Correction Website
 - 이미지 파일 저장 기능
 - Express.js 서버 구현
 - 외부 Python 파일 실행
+
