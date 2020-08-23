@@ -18,6 +18,9 @@ X_train, X_test, Y_train, Y_test = np.load('./img_data.npy', allow_pickle=True) 
 # 20200820 v.1.1 padding, input_shape 값 수정 강대훈
 # =============================
 # Ver 1.1 
+
+
+#모델 구성하기
 model = Sequential()
 print(X_train.shape)
 # 사용하고있는 keras ver이 1이 아닌 2일 경우
@@ -40,8 +43,10 @@ model.add(Dense(256, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(num_classes, activation='softmax'))
 
+#모델 엮기
 model.compile(loss='binary_crossentropy', optimizer='Adam', metrics=['accuracy'])
-model.fit(X_train, Y_train, batch_size=32, epochs=50)
+#모델 학습시키기 (hist에 저장해 loss/acc 값 저장)
+hist = model.fit(X_train, Y_train, batch_size=32, epochs=50)
 
 # 모델을 저장할 경로와 파일명을 지정
 model.save('hand_writing.h5')
@@ -56,5 +61,5 @@ checkpointer = ModelCheckpoint(filepath=modelpath, monitor='loss', verbose=1, sa
 early_stopping_callback = EarlyStopping(monitor='loss', patience=100)
 
 # Learning and save models
-model.fit(X_train, Y_train, validation_split=0.1, epochs=3500, batch_size=10, verbose=0,
+hist = model.fit(X_train, Y_train, validation_split=0.1, epochs=3500, batch_size=10, verbose=0,
           callbacks=[early_stopping_callback, checkpointer])
