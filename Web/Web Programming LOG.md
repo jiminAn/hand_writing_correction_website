@@ -99,3 +99,15 @@ Handwriting Correction Website
 - Express.js 서버 구현
 - 외부 Python 파일 실행
 
+<br/>
+
+## 2020-08-24 (Mon)
+
+**Server and Client**
+
+1. Structure 생각
+
+**Plus Alpha**
+
+1. Class Diagram 공부
+2. Sequence Diagram 공부
