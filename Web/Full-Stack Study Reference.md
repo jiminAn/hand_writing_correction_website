@@ -128,7 +128,7 @@ https://youtu.be/7akcEo_-yQ4
   - POST 500 Internal Server Error 이유
 - Client와 Server 개념 명확하게 하기
 - jQuery의 역할
-- 일반 Server와 Express.js와 차이
+- 일반 Server와 Express.js와 차이 (About Express.js Server)
 - Python 코드를 Server에서 돌리는 게 위험하다고?
 
 <br/>
