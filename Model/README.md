@@ -44,3 +44,7 @@
 2. 과적합 진단을 위한 모델 학습과정 그래프로 그리기    
 : check_overfitting_graph.py  
 : read_img 부분에 주석 추가와 학습과정을 기록하기 위해 hist변수 추가  
+
+## 2020.08.25
+1. 학습 데이터 바꿔보기   
+- 참고 <https://sdc-james.gitbook.io/onebook/4.-and/5.4.-tensorflow/5.4.2.-cnn-convolutional-neural-network>  
