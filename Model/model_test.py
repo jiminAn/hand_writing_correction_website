@@ -18,9 +18,9 @@ from keras.models import load_model
 
 
 #분류할 카테고리 지정: 단, read_img.py에서와 카테고리 분류 이름 동일해야함 
-categories = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
-              "A", "C", "D", "E", "F", "H", "J","K", "L", "M",
-              "N", "R", "S", "T", "X", "Y", "Z"]
+categories = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J","K", "L", "M",
+              "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z", "a", "b", "c", "d", "e", "f",
+              "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
  
 def Dataization(img_path):
     image_w = 28
