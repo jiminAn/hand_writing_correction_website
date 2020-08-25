@@ -111,3 +111,20 @@ Handwriting Correction Website
 
 1. Class Diagram 공부
 2. Sequence Diagram 공부
+
+<br/>
+
+## 2020-08-25 (Tue)
+
+**Server-Side**
+
+1. How to make Server Directory and run Express server in this directory
+
+**Client-Side**
+
+**Server and Client**
+
+1. Making whole structure
+
+
+
