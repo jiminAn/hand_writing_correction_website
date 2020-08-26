@@ -118,13 +118,23 @@ Handwriting Correction Website
 
 **Server-Side**
 
-1. How to make Server Directory and run Express server in this directory
-
-**Client-Side**
+1. Server 디렉토리 만든 후에 그 디렉토리에 있는 파일 Run 하는 방법
 
 **Server and Client**
 
-1. Making whole structure
+1. 큰 구조 생각
 
+<br/>
 
+## 2020-08-26 (Wed)
 
+**Server-Side**
+
+1. 바로바로 데이터가 들어오면 반응해줄 수 있는 웹을 만들어야 하나
+
+**Client-Side**
+
+1. 글자를 분할하여 저장하도록 하면 Client에게 어떤 식으로 명시해주어야 하나
+2. 글자 수 제한이 분명히 생길텐데 이런 점을 어떤 식으로 명시해주어야 하나
+
+<br/>
