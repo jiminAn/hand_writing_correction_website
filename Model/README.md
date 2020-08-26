@@ -48,3 +48,13 @@
 ## 2020.08.25
 1. 학습 데이터 바꿔보기   
 - 참고 <https://sdc-james.gitbook.io/onebook/4.-and/5.4.-tensorflow/5.4.2.-cnn-convolutional-neural-network>  
+
+## 2020.08.26
+1. MNIST로 손글씨 숫자 데이터 학습시키키  
+- 참고 <https://codetorial.net/tensorflow/mnist_classification.html>
+2. EMNIST로 손글씨 알파벳 데이터 학습시키기  
+- 참고 <https://github.com/ArenD100/Final/blob/master/EMNIST.ipynb>
+3. 파이썬 안에서 모델을 불러 그림판으로 input된 데이터에 대해 예측하는 코드
+- 참고 <https://codetorial.net/pyqt5/examples/mnist_classifier.html>
+
+
