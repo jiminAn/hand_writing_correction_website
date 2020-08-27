@@ -138,3 +138,9 @@ Handwriting Correction Website
 2. 글자 수 제한이 분명히 생길텐데 이런 점을 어떤 식으로 명시해주어야 하나
 
 <br/>
+
+## 2020-08-27 (Thu)
+
+**Client-Side**
+
+1. CSS 부분 디자인
