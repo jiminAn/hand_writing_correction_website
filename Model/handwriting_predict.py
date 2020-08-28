@@ -36,13 +36,12 @@ for contour in contours:
     predictions = model.predict(img_input)
     
     number = np.argmax(predictions)
-    print(number)
     
     cv.rectangle(img_color, (x,y), (x+w, y+h), (255, 255, 0), 2)
     location = (x+ int(w*0.5), y - 10)
     font = cv.FONT_HERSHEY_COMPLEX
     fontScale = 1.2
-    print(chr(number+64))
+    print(chr(number+64), end = '')
     #cv.putText(img_color, chr(number+64), location, font, fontScale, (0,255,0),2)
     #cv.imshow("img",img_digit)
 
