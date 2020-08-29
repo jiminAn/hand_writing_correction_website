@@ -144,3 +144,15 @@ Handwriting Correction Website
 **Client-Side**
 
 1. CSS 부분 디자인
+
+<br/>
+
+## 2020-08-28 (Fri)
+
+**Client-Side**
+
+1. CSS 부분 디자인
+
+**Python**
+
+1. 인공지능 학습 코드 공부
