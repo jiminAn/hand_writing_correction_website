@@ -57,4 +57,9 @@
 3. 파이썬 안에서 모델을 불러 그림판으로 input된 데이터에 대해 예측하는 코드 : mnist_my_app.py, emnist_my_app.py  
 - 참고 <https://codetorial.net/pyqt5/examples/mnist_classifier.html>
 
-
+## 2020.08.29 
+1. 학습 모델 성능 높이기  
+: 에포크 10->100으로 증가하여 emnist_trained.h5 모델 갱신  
+2. 특정 알파벳 예측도 높이기  
+- 대문자 C/F I/Z N/V R/K U/Y (오른쪽 알파벳을 입력시 왼쪽 알파벳으로 인식함)
+- 소문자 b q r(계속 예측값이 다르게 나옴)
