@@ -156,3 +156,12 @@ Handwriting Correction Website
 **Python**
 
 1. 인공지능 학습 코드 공부
+
+<br/>
+
+## 2020-08-29 (Sat)
+
+**Client and Server**
+
+1. Download 버튼 만들어서 이미지 확인 (경로 설정의 문제는?)
+
