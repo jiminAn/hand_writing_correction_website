@@ -1,4 +1,4 @@
-# filename : check_overfitting_graph.py
+# filename : font_to_jpg.py
 # history
 # =============================
 # 20200810 v.1.0 초안 작성 및 주석  (강대훈)
