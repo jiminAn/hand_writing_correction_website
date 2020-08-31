@@ -74,22 +74,22 @@ for i in range(2):
     for c in sorted_ctrs:
         (x, y, w, h) = cv2.boundingRect(c)
         length = max(w,h)+20
-        if(w>h): #정사각형으로 틀을 만들기 위해 새로운 new_x, new_y생성
+        if(w>h):  # 글자 겹침을 방지하기 위해 새로운 x,y, 값을 선언 
             mid1 = (w-h)//2
             new_x = x-10
             new_y = y-mid1-10
-        else:
+        else: 
             mid2 = (h-w)//2
             new_y = y-10
             new_x = x-mid2-10
         plt.figure(figsize=(5,5))   
         img_digit = np.zeros((length, length, 1), np.uint8)
-        img_digit = img_binary[new_y:new_y+length, new_x:new_x+length]#이미지 크롭
+        img_digit = img_binary[new_y:new_y+length, new_x:new_x+length]# 새로 만든 값으로 이미지 크롭
         plt.imshow(img_digit)
         kernel = np.ones((5,5), np.uint8)
         img_digit = cv2.morphologyEx(img_digit, cv2.MORPH_DILATE, kernel)
     
-    #예측하기 위해 모델 학습한 이미지와 크기 같게 만들기
+    # 예측하기 위해 모델 학습한 이미지와 크기 같게 만들기
         img_digit = cv2.resize(img_digit, (28, 28), interpolation = cv2.INTER_AREA)
         img_digit = img_digit /255.0
         img_input = img_digit.flatten().reshape(-1, 28* 28)
@@ -97,10 +97,10 @@ for i in range(2):
     
         number = np.argmax(predictions)
     
-    #예측한 부분 표시를 위한 부분
+    # 예측한 부분 표시를 위한 부분
         cv2.rectangle(img_color, (x,y), (x+w, y+h), (255, 255, 0), 2)
-    #아래 주석은 정사각형으로 인식된 부분을 보여줌--> 보려면 주석 풀면 됨
-    #cv2.rectangle(img_color, (new_x-10, new_y-10), (new_x+length+10, new_y+length+10), (255, 100, 100), 2)
+    # 아래 주석은 정사각형으로 인식된 부분을 보여줌--> 보려면 주석 풀면 됨
+    # cv2.rectangle(img_color, (new_x-10, new_y-10), (new_x+length+10, new_y+length+10), (255, 100, 100), 2)
         location = (x+ int(w*0.5), y - 10)
         font = cv2.FONT_HERSHEY_COMPLEX
         fontScale = 1.2
