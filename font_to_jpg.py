@@ -1,3 +1,11 @@
+# filename : check_overfitting_graph.py
+# history
+# =============================
+# 20200810 v.1.0 초안 작성 및 주석  (강대훈)
+# =============================
+# Ver 1.0
+
+
 import sys, os
 import numpy as np
 import matplotlib.pyplot as plt
