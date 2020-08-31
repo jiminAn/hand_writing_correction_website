@@ -29,4 +29,4 @@ acc_ax.set_ylabel('accuray')
 loss_ax.legend(loc='upper left')
 acc_ax.legend(loc='lower left')
 
-plt.show()
+plt.show() 
