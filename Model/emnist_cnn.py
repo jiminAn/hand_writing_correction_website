@@ -1,6 +1,5 @@
-# 모델 학습 과정 표시하기
+# EMNIST Data set : hand written alphabet
 
-#
 # filename : emnist_cnn.py
 # history
 # =============================
