@@ -1,3 +1,13 @@
+# filename : check_overfitting_graph.py
+# history
+# =============================
+# 20200827 v.1.0 초안 작성 (안선정)
+# 20200827 v 1.1 크롭한 문자 수만큼 알파벳 예측 기능 추가 (안선정)
+# 20200831 v 1.2 코드 및 주석 수정 (강대훈)
+# =============================
+# Ver 1.0
+
+
 import cv2 
 #import imageio
 #import scipy
@@ -31,6 +41,7 @@ def sort_contours(cnts, method="left-to-right"):
 
     # return the list of sorted contours and bounding boxes
     return (cnts, boundingBoxes)
+
 ######################main#############################
 img = []
 list = []
@@ -98,5 +109,3 @@ for i in range(2):
         cv2.putText(img_color, chr(number+64), location, font, fontScale, (0,255,0),2)
         s = s+ chr(number+64)
     print(s)
-
-    #plt.imshow(img_color)
