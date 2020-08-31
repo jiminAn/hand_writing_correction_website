@@ -1,5 +1,13 @@
 ## Ex 10-6. EMNIST 손글씨 인식 프로그램.
 
+#
+# filename : emnist_my_app.py
+# history
+# =============================
+# 20200826 v.1.0 초안 작성 (안지민)
+# =============================
+# Ver 1.0
+
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
