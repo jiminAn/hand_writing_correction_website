@@ -89,7 +89,7 @@ model.compile(loss='categorical_crossentropy', optimizer='rmsprop' , metrics=['a
 
 
 # Train Model
-model.fit(X_train, y_train, batch_size=128, epochs=10, shuffle=True, verbose=2)
+model.fit(X_train, y_train, batch_size=128, epochs=100, shuffle=True, verbose=2)
 
 model.summary()
 
