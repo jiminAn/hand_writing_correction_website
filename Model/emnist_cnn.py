@@ -5,8 +5,9 @@
 # history
 # =============================
 # 20200826 Ver 1.0 초안 및 주석 작성 (안지민)
+# 20200828 Ver 1.1 Epohc 수정 (안지민)
 # =============================
-# Ver 1.0
+# Ver 1.1
 
 # Visualization Dependencies
 from IPython.display import Image, SVG
