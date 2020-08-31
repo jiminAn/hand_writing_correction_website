@@ -1,3 +1,13 @@
+# 모델 학습 과정 표시하기
+
+#
+# filename : emnist_cnn.py
+# history
+# =============================
+# 20200826 Ver 1.0 초안 작성 (안지민)
+# =============================
+# Ver 1.0
+
 # Visualization Dependencies
 from IPython.display import Image, SVG
 import seaborn as sns
