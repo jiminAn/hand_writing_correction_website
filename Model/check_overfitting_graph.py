@@ -1,6 +1,5 @@
-# 모델 학습 과정 표시하기
+# 모델 학습 과정 표시하기(과대적합 여부 판단)
 
-#
 # filename : check_overfitting_graph.py
 # history
 # =============================
