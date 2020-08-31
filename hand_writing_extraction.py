@@ -1,4 +1,4 @@
-# filename : check_overfitting_graph.py
+# filename : hand_writing_extraction.py
 # history
 # =============================
 # 20200827 v.1.0 초안 작성 (안선정)
