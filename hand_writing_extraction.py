@@ -36,19 +36,15 @@ img = []
 list = []
 model = load_model('emnist_trained.h5')#훈련 모델 데려오기
 img_color = cv2.imread('./test_data/example.PNG',cv2.IMREAD_COLOR) # 이미지 불러오기 (경로만 바꾸어주면 됨)
-print(img_color.shape[1])
-plt.figure(figsize=(5,5))
-img.append(img_color[0:img_color.shape[0]//2, 0:img_color.shape[1]]) # 
-img.append(img_color[img_color.shape[0]//2:img_color.shape[0], 0:img_color.shape[1]])
-plt.imshow(img[0])
-plt.figure(figsize=(5,5))
-plt.imshow(img[1])
+img.append(img_color[0:img_color.shape[0]//2, 0:img_color.shape[1]]) # 윗 격자 이미지
+img.append(img_color[img_color.shape[0]//2:img_color.shape[0], 0:img_color.shape[1]]) # 아래 격자 이미지
+
 
 for i in range(2):
     s = ''
     img_gray = cv2.cvtColor(img[i], cv2.COLOR_BGR2GRAY) #흑백으로 바꾸어줌
 
-    for i in range(img_gray.shape[0]): #격자없애기(파란색을 기준으로 모든 색은 흰색으로 바꿈)
+    for i in range(img_gray.shape[0]): #격자 없애기 (파란색을 기준으로 모든 색은 흰색으로 바꿈)
         for j in range(img_gray.shape[1]):
             if img_gray[i][j] > 30 :
                 img_gray[i][j] = 255
@@ -62,10 +58,9 @@ for i in range(2):
 #문자 인식
     contours, hierarchy = cv2.findContours(img_binary, cv2.RETR_EXTERNAL,
                                     cv2.CHAIN_APPROX_SIMPLE)
-
-    sorted_ctrs =sort_contours(contours,  method="left-to-right")[0]
-
+    sorted_ctrs =sort_contours(contours,  method="left-to-right")[0] # left -> right 순서로 인식
     digits = []
+    
 #경계선대로 이미지 예측
     for c in sorted_ctrs:
         (x, y, w, h) = cv2.boundingRect(c)
