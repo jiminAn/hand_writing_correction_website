@@ -38,7 +38,7 @@ model = load_model('emnist_trained.h5')#훈련 모델 데려오기
 img_color = cv2.imread('./test_data/example.PNG',cv2.IMREAD_COLOR) # 이미지 불러오기 (경로만 바꾸어주면 됨)
 print(img_color.shape[1])
 plt.figure(figsize=(5,5))
-img.append(img_color[0:img_color.shape[0]//2, 0:img_color.shape[1]])
+img.append(img_color[0:img_color.shape[0]//2, 0:img_color.shape[1]]) # 
 img.append(img_color[img_color.shape[0]//2:img_color.shape[0], 0:img_color.shape[1]])
 plt.imshow(img[0])
 plt.figure(figsize=(5,5))
