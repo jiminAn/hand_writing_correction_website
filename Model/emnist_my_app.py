@@ -1,6 +1,6 @@
 ## Ex 10-6. EMNIST 손글씨 인식 프로그램.
 
-#
+# 
 # filename : emnist_my_app.py
 # history
 # =============================
