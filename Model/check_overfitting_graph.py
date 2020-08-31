@@ -1,4 +1,13 @@
 # 모델 학습 과정 표시하기
+
+#
+# filename : check_overfitting_graph.py
+# history
+# =============================
+# 20200823 v.1.0 초안 작성 (안지민)
+# =============================
+# Ver 1.0
+
 import matplotlib.pyplot as plt
 
 fig, loss_ax = plt.subplots()
