@@ -10,8 +10,7 @@
 
 # Role
 
-
-**Project Manager**
+**Project Manager** &#128081;
 
 - [daehoon12(강대훈)](https://github.com/daehoon12)
 
