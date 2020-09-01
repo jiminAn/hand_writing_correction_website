@@ -10,20 +10,15 @@
 
 # Role
 
-**Project Manager** &#128081;
-
-- [daehoon12(강대훈)](https://github.com/daehoon12)
-
 **인공지능 모델 설계(AI Model Design)**
 
 - [jiminAn(안지민)](https://github.com/jiminAn)
 
 - [Rudy-009(이승준)](https://github.com/Rudy-009)
 
-
 **데이터 관리 및 추출(Data Management & Data Extraction)**
 
-- [daehoon12(강대훈)](https://github.com/daehoon12)
+- [daehoon12(강대훈)](https://github.com/daehoon12) (**Project Manager** &#128081;)
 
 - [sja3410(안선정)](https://github.com/sja3410)
 
