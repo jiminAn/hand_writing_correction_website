@@ -212,3 +212,45 @@ Handwriting Correction Website
    - Checkbox, Table 개념 학습
 
 <br/>
+
+## 2020-08-31 (Mon)
+
+**Client and Server**
+
+1. sessionStorage 방식 사용하여 데이터 넘기기 성공
+2. 모든 기능 연결
+
+**Etc**
+
+1. 예외사항 논의
+
+<br/>
+
+## 2020-09-01 (Tue)
+
+**Client and Server**
+
+1. **한 줄 이상 문자열 결과 나오는 것 연동**
+   - split( ) 함수 사용하여 각 배열로 저장
+
+**Client-Side**
+
+1. **기본 UI 완성**
+   - css-style 태그 사용하여 정렬
+   - css file 사용
+2. **Canvas 기능 고민**
+   - result.html 창에서 Canvas가 이상한 좌표에 그려지는 것을 파악
+   - 교훈 : 화면에 그려지는 것은 너무나 어렵다. 사용자마다 친화적이게 디자인 할 수는 없을까?
+3. **한 줄 이상 문자열 결과 나오는 것 연동**
+   - html에 보여주기까지 완성
+
+**Completed Function**
+
+- All Function is clear
+
+**Remain Things**
+
+- Download Loading Function
+- Exceptions Check
+
+<br/>
