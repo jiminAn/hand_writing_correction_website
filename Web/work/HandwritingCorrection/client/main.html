@@ -9,45 +9,24 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a href="/"><img src="/client/logo.png" width="40px" height="40px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarColor01">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item" style="margin-left:10px;">
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/main">Main</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/result">Result</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
-                </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-              </form>
             </div>
           </nav>
         
           <div style="width: 700px; float: center;">
-            <canvas id="myCanvas" style="border:3px solid #50bcdf; margin-left: 25%; margin-top: 7%; background: white;"></canvas>
+            <canvas id="myCanvas" style="border:3px solid #50bcdf; margin-left: 30%; margin-top: 7%; background: white;"></canvas>
             <main>
               <section class="thickness">
                   <input type="range" class="stroke-weight" value="3" min="0" max="10"/>
@@ -58,12 +37,11 @@
           </div>
 
           <div>
-            <button type = "button" id="btnDisplay">Display</button>
-            <button type = "button" id="btnDownload" onclick="Download()" value="THIS IS VALUE">Download</button>
+            <button type = "button" class="btn btn-secondary" id="btnDownload" onclick="Download()" style="float:right; margin-right:75px;" value="THIS IS VALUE">Download</button>
             <script src="/client/main.js"></script>
           </div>
 
-          <div>
+          <div style="margin-left:200px; margin-top:30px;">
             <table border="3" bordercolor="#000000" width ="1000px" height="300px" align = "center" >
                 <tr bgcolor="#BE81F7" align ="center" height="50px">
                   <td colspan = "5" span style="color:white; font-size: 20px">Choose your Font</td>
@@ -100,7 +78,7 @@
                   <td width = "200px" style="font-family: Copperplate"><label><input type="checkbox" id="checkValue" value="Copperplate"> Copperplate</label></td>
                 </tr>
             </table>
-            <button onclick="getValue()">List of Font</button>
+            <button class="btn btn-primary" style="float:right; margin-right:75px;" onclick="getValue()">Next Step</button>
           </div>
 
     </body>

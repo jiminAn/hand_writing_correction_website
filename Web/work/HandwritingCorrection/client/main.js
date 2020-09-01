@@ -96,10 +96,10 @@ function draw({clientX: x, clientY: y}) {
     ctx.lineCap = "round";
     ctx.strokeStyle = "#171717";
 
-    ctx.lineTo(x - 177, y - 107); // 실제 화면상의 마우스 좌표와 캔버스가 나타나는 좌표와 다르면 갭이 생김
+    ctx.lineTo(x - 212, y - 107); // 실제 화면상의 마우스 좌표와 캔버스가 나타나는 좌표와 다르면 갭이 생김
     ctx.stroke();
     ctx.beginPath();
-    ctx.moveTo(x - 177, y - 107);
+    ctx.moveTo(x - 212, y - 107);
 }
 
 function stop() {
