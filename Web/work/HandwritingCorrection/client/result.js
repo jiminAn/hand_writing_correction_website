@@ -30,7 +30,7 @@ window.onload = function() {
     document.getElementById("demo").innerHTML = ""; // 태그 초기화 작업
 
     newStr.forEach(function(element) {
-        document.getElementById("demo").innerHTML += "<button id=\"fontButton\" onclick=\"setFont(this.value)\" value=\"" + element + "\"" + ">" + element + "</button><br>";
+        document.getElementById("demo").innerHTML += "<button type=\"button\" class=\"btn btn-danger\" id=\"fontButton\" onclick=\"setFont(this.value)\" value=\"" + element + "\"" + " style=\"margin: 2px 2px 2px 2px; font-family:" + element + "\"" + ">" + element + "</button>";
     });
 
     $('#showBlack').html(result);
@@ -48,126 +48,88 @@ function setFont(e) {
     var font = $('#showBlack').css("font-family");
     console.log("font is " + font);
 
+    ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
     if(font == "Arial") { // 문자열은 Double Quote가 하나 더 붙는구나?
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Arial";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "\"Times New Roman\"") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Times New Roman";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Helvetica") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Helvetica";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Times") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Times";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "\"Courier New\"") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Courier New";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Verdana") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Verdana";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Courier") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Courier";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "\"Arial Narrow\"") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Arial Narrow";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Candara") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Candara";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Geneva") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Geneva";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Calibri") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Calibri";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Optima") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Optima";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "ArCambriaial") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px ArCambriaial";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Garamond") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Garamond";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Perpetua") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Perpetua";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Monaco") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Monaco";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Didot") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Didot";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "\"Brush Script MT\"") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Brush Script MT";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "\"Lucida Bright\"") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Lucida Bright";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
     else if(font == "Copperplate") {
-        ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
         ctx.font = "150px Copperplate";
         ctx.fillStyle = "silver";
-        ctx.fillText(sessionStorage.getItem('result'),500, 500);
     }
+    ctx.fillText(sessionStorage.getItem('result'),50, 550);
     console.log("ctx.font is " + ctx.font);
 
     // console.log(font);

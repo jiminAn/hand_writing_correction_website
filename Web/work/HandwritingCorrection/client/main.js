@@ -2,6 +2,9 @@ const clearButton = document.querySelector('.clear');
 const stroke_weight = document.querySelector('.stroke-weight');
 const color_picker = document.querySelector('.color-picker');
 
+const btnDownload = document.querySelector("#btnDownload"); // Download button
+
+const myCanvas = document.querySelector('#myCanvas');
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -18,6 +21,7 @@ window.onload = function() {
     console.log("onload");
     pixel();
 }
+
 
 function pixel() {
     ctx.strokeStyle = "#ffffff";
@@ -90,12 +94,12 @@ function draw({clientX: x, clientY: y}) {
     
     ctx.lineWidth = stroke_weight.value;
     ctx.lineCap = "round";
-    ctx.strokeStyle = color_picker.value;
+    ctx.strokeStyle = "#171717";
 
-    ctx.lineTo(x - 210, y - 195); // 실제 화면상의 마우스 좌표와 캔버스가 나타나는 좌표와 다르면 갭이 생김
+    ctx.lineTo(x - 177, y - 107); // 실제 화면상의 마우스 좌표와 캔버스가 나타나는 좌표와 다르면 갭이 생김
     ctx.stroke();
     ctx.beginPath();
-    ctx.moveTo(x - 210, y - 195);
+    ctx.moveTo(x - 177, y - 107);
 }
 
 function stop() {
@@ -118,6 +122,50 @@ function resizeCanvas() {
     canvas.height = 200 + 60;
 }
 resizeCanvas();
+
+function Download() {
+    console.log("btndownload");
+   
+        const dataURI = myCanvas.toDataURL();
+        sessionStorage.setItem('url', dataURI); // 미리보기 사진 보여주는 역할
+
+        var rand = Math.floor(Math.random() * 100000) + 1;
+        document.getElementById("btnDownload").value = rand + "";
+        console.log("rand in html is : " + $('#btnDownload').val());
+
+        const a = document.createElement("a");
+
+        // document.body.appendChild(a);
+        a.href = myCanvas.toDataURL();
+        a.download = "example" + $('#btnDownload').val() + ".png";
+        a.click();
+        // document.body.removeChild(a);
+
+        var get = $('#btnDownload').val();
+        console.log("get is :" + get);
+
+        // Ajax GET Method TEST
+        $.ajax({
+            url: '/api/get',
+            dataType: 'json',
+
+            type: 'GET',
+            data: {data: get},
+            success: function(result) {
+                if(result) {
+                    sessionStorage.setItem('result', result.result); // Python 코드 돌려서 나온 결과값을 넘겨줌
+                    
+                    // $('#get_output').html(result.result);
+                    // console.log(result);
+                    // console.log(result.result);
+                    
+                    // result : json attribute
+                    // result.result : json value
+                }
+            }
+        });
+        
+}
 
 var str = '';
 
@@ -145,26 +193,8 @@ function getValue() { // 배열 넣고 보여주는 것까지 해야함
     // });
 
     sessionStorage.setItem('array', str); // local보다는 session 사용
-    sessionStorage.setItem('result', $('#get_output').html()); // Python 코드 돌려서 나온 결과값을 넘겨줌
+    console.log(sessionStorage.getItem('result'));
     str = '';
 
     location.href = "/result"; // result.html로 이동
-}
-
-function setFont() {
-    console.log("SetFont");
-    // var databaseUrl = 'mongodb://localhost:27017/testdb';
-    // var db;
-
-    // MongoClient.connect(databaseUrl, function(err, database) {
-    //     if(err) {
-    //         console.log(err);
-    //     }
-    //     console.log('데이터베이스에 연결됨: ' + databaseUrl);
-    //     db = database.db('testdb');
-
-    //     var michael = {name:'Fleta', age:21, gender:'M'};
-    //     db.collection('testdb').insert(michael);
-    // });
-
 }
