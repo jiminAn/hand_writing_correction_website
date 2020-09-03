@@ -16,25 +16,8 @@
 |  [jiminAn(안지민)](https://github.com/jiminAn)   | 메인 코더 |  AI 개발의 메인 코더   |
 |     [Rudy-009(이승준)](https://github.com/Rudy-009)   | 테스트 담당자, 서브 코더  | AI 프로그램 개발의 서브 코더 및 테스트 실행 및 관리   |
 |    [limjustin(임재영)](https://github.com/limjustin)  |     웹 디자인 및 설계          | UI 설계, 서버 설계 및 관리         |
-| [sja3410(안선정)](https://github.com/sja3410) |         데이터 관리자, 서브 코더          |  프로젝트에 필요한 데이터 수집 및 관리
-데이터 추출 및 저장 관련 코더
- |
+| [sja3410(안선정)](https://github.com/sja3410) |         데이터 관리자, 서브 코더          |  프로젝트에 필요한 데이터 수집 및 관리, 데이터 추출 및 저장 관련 코더 |
 
-**인공지능 모델 설계(AI Model Design)**
-
-- [jiminAn(안지민)](https://github.com/jiminAn)
-
-- [Rudy-009(이승준)](https://github.com/Rudy-009)
-
-**데이터 관리 및 추출(Data Management & Data Extraction)**
-
-- [daehoon12(강대훈)](https://github.com/daehoon12) (**Project Manager** &#128081;)
-
-- [sja3410(안선정)](https://github.com/sja3410)
-
-**웹 프로그래밍(Web Programming)**
-
-- [limjustin(임재영)](https://github.com/limjustin)
 
 <br/>
 
