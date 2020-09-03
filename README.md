@@ -28,6 +28,46 @@
 
 <br/>
 
+# Website
+
+#### **Initial Page**
+
+![web1](C:\Users\user\Desktop\web1.png)
+
+<br/>
+
+#### **Main Page**
+
+![web2](C:\Users\user\Desktop\web2.png)
+
+- 사용자는 캔버스 위에 자신의 손글씨를 작성
+
+![web3](C:\Users\user\Desktop\web3.png)
+
+- 손글씨를 작성한 후, Download 버튼을 누르고 원하는 글씨체를 선택
+
+![downloadfile](C:\Users\user\Desktop\downloadfile.png)
+
+- 사용자는 자신이 쓴 손글씨를 직접 다운로드 가능
+
+<br/>
+
+#### Practice Page
+
+![web4](C:\Users\user\Desktop\web4.png)
+
+- 사용자가 선택한 글씨체 중 하나를 골라서 오른쪽 캔버스에 가이드 글씨로 표시
+
+![web5](C:\Users\user\Desktop\web5.png)
+
+- 색깔, 굵기를 조절하여 직접 가이드 글씨 위에 손글씨 작성 가능
+
+![resultweb](C:\Users\user\Desktop\resultweb.png)
+
+- 사용자가 작성한 손글씨 직접 다운로드 가능
+
+<br/>
+
 # Documentation
 
 **문서 정리**
