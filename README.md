@@ -32,21 +32,21 @@
 
 #### **Initial Page**
 
-![web1](C:\Users\user\Desktop\web1.png)
+![web1](https://user-images.githubusercontent.com/55044278/92071667-4ab92800-edea-11ea-9a84-1e85bbe9a5e5.png)
 
 <br/>
 
 #### **Main Page**
 
-![web2](C:\Users\user\Desktop\web2.png)
+![web2](https://user-images.githubusercontent.com/55044278/92071672-50af0900-edea-11ea-901b-99cc663cdf00.png) 
 
 - 사용자는 캔버스 위에 자신의 손글씨를 작성
 
-![web3](C:\Users\user\Desktop\web3.png)
+![web3](https://user-images.githubusercontent.com/55044278/92071680-5573bd00-edea-11ea-8771-2e200cc7b6ca.png)
 
 - 손글씨를 작성한 후, Download 버튼을 누르고 원하는 글씨체를 선택
 
-![downloadfile](C:\Users\user\Desktop\downloadfile.png)
+![downloadfile](https://user-images.githubusercontent.com/55044278/92071721-72a88b80-edea-11ea-9636-08e414fe5c9a.png)
 
 - 사용자는 자신이 쓴 손글씨를 직접 다운로드 가능
 
@@ -54,15 +54,15 @@
 
 #### Practice Page
 
-![web4](C:\Users\user\Desktop\web4.png)
+![web4](https://user-images.githubusercontent.com/55044278/92071684-5a387100-edea-11ea-95c4-6efa081fc7ab.png)
 
 - 사용자가 선택한 글씨체 중 하나를 골라서 오른쪽 캔버스에 가이드 글씨로 표시
 
-![web5](C:\Users\user\Desktop\web5.png)
+![web5](https://user-images.githubusercontent.com/55044278/92071694-5f95bb80-edea-11ea-87b5-4a30f8f7ec52.png)
 
 - 색깔, 굵기를 조절하여 직접 가이드 글씨 위에 손글씨 작성 가능
 
-![resultweb](C:\Users\user\Desktop\resultweb.png)
+![resultweb](https://user-images.githubusercontent.com/55044278/92071705-66243300-edea-11ea-9a02-34d57c1c2fa7.png)
 
 - 사용자가 작성한 손글씨 직접 다운로드 가능
 
