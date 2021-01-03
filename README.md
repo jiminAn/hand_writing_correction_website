@@ -34,7 +34,7 @@
 5. 글꼴에 맞춰 글씨를 쓴다.
 
 # Model
-![image-20200930195006846](https://github.com/jiminAn/hand_writing_correction_website/blob/master/model.png)
+![image-20200930195006846](https://user-images.githubusercontent.com/55044278/103474161-6f4afe00-4de4-11eb-83a3-5af7cc91378f.png)
 
 # Hyperparameters
 - Batch Size = 32
