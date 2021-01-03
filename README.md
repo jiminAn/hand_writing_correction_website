@@ -23,25 +23,38 @@
 
 # Stack
 - Model : tensorflow, keras, Python
+
 - Web : Node.js, css, javascript, HTML
+
 - Data : OpenCV, Python
+<br>
 
 # Procedure
 1. EMNIST 기반의 데이터를 CNN 모델로 학습시킨다.
+
 2. 웹에 구현된 원고지에 글씨를 쓴다.
+
 3. OpenCV로 쓴 글씨를 인식해 이미지로 저장한다.
+
 4. 모델이 글씨를 인식하고 글꼴을 선택한다.
+
 5. 글꼴에 맞춰 글씨를 쓴다.
+<br>
 
 # Model
 ![image-20200930195006846](https://user-images.githubusercontent.com/55044278/103474161-6f4afe00-4de4-11eb-83a3-5af7cc91378f.png)
+<br>
 
 # Hyperparameters
 - Batch Size = 32
+
 - Epoch = 50
+
 - Optimizer = adam
+
 - Loss Function = categorical_crossentropy
 
+<br>
 
 # Website
 
